@@ -19,6 +19,7 @@ html {
 
 .card-wrapper {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
 }
@@ -71,7 +72,7 @@ h2 {
     rgba(255, 255, 255, 1) 30%,
     rgba(0, 255, 252, 0) 100%
   );
-  top: 25%;
+  top: 27%;
   position: absolute;
   width: 100%;
   padding-block: 3rem;
