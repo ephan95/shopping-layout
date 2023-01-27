@@ -68,14 +68,13 @@ h2 {
   background: rgb(255, 255, 255);
   background: linear-gradient(
     0deg,
-    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 30%,
     rgba(0, 255, 252, 0) 100%
   );
-  top: 10.7rem;
+  top: 25%;
   position: absolute;
-  width: 25rem;
+  width: 100%;
   padding-block: 3rem;
-  z-index: 1;
 }
 
 .label-top-right {
@@ -132,6 +131,11 @@ select:focus {
   padding-block: 0.8em;
   width: 100%;
   border-radius: 0.3em;
+  border: white 2px solid;
+}
+
+.cart-button:hover {
+  border: var(--picker-blue) 2px solid;
 }
 
 /* radio buttons */
@@ -220,4 +224,30 @@ select:focus {
 
 .grid-five {
   grid-area: 4 / 1 / 5 / 3;
+}
+
+/* specific styling */
+
+.adidas {
+  display: none;
+}
+
+#adidas-green-black {
+  background: linear-gradient(90deg, #979637 50%, black 50%);
+}
+
+#adidas-blue-black {
+  background: linear-gradient(90deg, #568ad8 50%, black 50%);
+}
+
+#adidas-red-black {
+  background: linear-gradient(90deg, #d3658d 50%, black 50%);
+}
+
+#new-balance-red-white {
+  background: linear-gradient(90deg, var(--picker-red) 50%, white 50%);
+}
+
+#new-balance-black-white {
+  background: linear-gradient(90deg, black 50%, white 50%);
 }
